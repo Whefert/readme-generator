@@ -9,17 +9,16 @@ const questions = [
   { type: "input", name: "description", message: "Description:" },
   { type: "input", name: "installation", message: "Installation:" },
   { type: "input", name: "usage", message: "Usage:" },
-  { type: "input", name: "credits", message: "Credits:" },
   {
     type: "list",
     name: "license",
     message: "License:",
     choices: ["MIT", "Apache"],
   },
-  { type: "input", name: "badges", message: "Badges:" },
-  { type: "input", name: "features", message: "Features:" },
   { type: "input", name: "contributing", message: "Contributoing:" },
   { type: "input", name: "tests", message: "Tests:" },
+  { type: "input", name: "github", message: "GitHub username:" },
+  { type: "input", name: "email", message: "Email address:" },
 ];
 
 // function to write README file
