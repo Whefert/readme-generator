@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const { generateMarkdown, badges } = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -13,9 +13,9 @@ const questions = [
     type: "list",
     name: "license",
     message: "License:",
-    choices: ["MIT", "Apache"],
+    choices: Object.keys(badges),
   },
-  { type: "input", name: "contributing", message: "Contributoing:" },
+  { type: "input", name: "contributing", message: "Contributing:" },
   { type: "input", name: "tests", message: "Tests:" },
   { type: "input", name: "github", message: "GitHub username:" },
   { type: "input", name: "email", message: "Email address:" },
@@ -23,14 +23,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(`./result/${fileName}`, data, (err) => {
-    console.log(err);
+  fs.writeFile(`./result/${fileName}`, data, () => {
+    console.log(
+      "README created succesfully. Check the result folder to view the file"
+    );
   });
 }
 
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((answers) => {
+    console.log(answers);
     writeToFile("README.md", generateMarkdown(answers));
   });
 }
