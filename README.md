@@ -8,8 +8,8 @@ Create a command-line application that dynamically generates a professional READ
 node index.js
 ```
 
-See demo video of application [here](https://drive.google.com/file/d/1-yvzq-EMyLQ-UCID0pQXjWBDjhUA9Ua1/view?usp=sharing).
-See example of generated README [here](https://github.com/Whefert/readme-generator/blob/main/result/README.md)
+See a demo video of the application [here](https://drive.google.com/file/d/1-yvzq-EMyLQ-UCID0pQXjWBDjhUA9Ua1/view?usp=sharing).
+See an example of a generated README [here](https://github.com/Whefert/readme-generator/blob/main/result/README.md)
 
 ## Acceptance Criteria
 
