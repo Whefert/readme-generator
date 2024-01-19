@@ -1,33 +1,38 @@
+# Read Me Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # Test [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+# Description
 
+Automate generating a README file
 
-  # Description 
-  test
+## Table of Contents
 
-  ## Table of Contents 
-  
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#credits)
-  * [Tests](#tests)
-  * [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Installation
-  yesy
-  
-  ## Usage 
-  test
+## Installation
 
-  ## License
-  ISC License (ISC)  
+Run npm install after copying files
 
-  ## Contributing
-  Jeff and Shan
-  
-  ## Tests
-  Test  
+## Usage
 
-  ## Questions
-  You can reach me with additional questions at this email: [jeffersondaley@gmail.com](jeffersondaley@gmail.com) or via [GitHub](https://github.com/Whefert) 
+Run node index.js from the terminal
+
+## License
+
+MIT License
+
+## Contributing
+
+Jefferson Daley
+
+## Tests
+
+N/A
+
+## Questions
+
+You can reach me with additional questions at this email: [jeffersondaley@gmail.com](mailto:jeffersondaley@gmail.com) or via [GitHub](https://github.com/Whefert)
